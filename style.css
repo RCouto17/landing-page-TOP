@@ -1,0 +1,125 @@
+/*colours and stuff*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 150px;
+}
+
+.stylized{
+    width: 500px;
+    height: 300px;
+}
+
+button{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 32px;
+    border: #3882f6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+#infotitle{
+    text-align: center;
+    padding: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.infoimg{
+    width: 300px;
+    height: 300px;
+}
+
+cite{
+    font-weight: bold;
+}
+
+/*Positions and other stuff*/
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+    padding-bottom: 150px;
+    background-color: #1f2937;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 300px;
+    max-height: 300px;
+    background-color: #1f2937;
+    padding-bottom: 150px;
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding-right: 32px;
+    gap: 16px;
+}
+
+.htitle{
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.info{
+display: flex;
+flex-wrap: wrap;
+max-width: 200px;
+align-items: center;
+justify-content: center;
+align-self: flex-start;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    gap: 160px;
+    font-style: italic;
+    flex-direction: column;
+    justify-content: flex-end;
+}

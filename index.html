@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <div class="header">
-        <img src="images/trumpet-304851_640.png" alt="Logo">
+        <img class="logo" src="images/trumpet-304851_640.png" alt="Logo">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Contact</a></li>
@@ -17,36 +18,51 @@
     </div>
 
     <div class="hero">
-        <h1>Jazz is awesome!</h1>
-        <p>Everyone should listen to Jazz, because it is great</p>
+        <div class="herotext">
+        <h1 class="htitle">Jazz is awesome!</h1>
+        <p>Everyone should listen to Jazz, because it is great!</p>
         <button>Sign up</button>
-        <img src="images/pipe-37816_1920.png" alt="Dude playing jazz stylized">
+        </div>
+        <div class="style-img" >
+         <img class="stylized" src="images/pipe-37816_1920.png" alt="Dude playing jazz stylized">
+        </div>
     </div>
 
+    
+        <h1 id="infotitle">Why you should listen to Jazz.</h1>
     <div class="information">
-        <h1>Why you should listen to Jazz</h1>
-
-        <img src="images/jazz-1658886_1920.jpg" alt="because">
-        <p>Look at him...</p>
-
-        <img src="images/music-3264716_1920.jpg" alt="I">
-        <p>And at him...</p>
-
-        <img src="images/musician-1658887_1920.jpg" alt="Said">
-        <p>And at him...</p>
-
-        <img src="images/piano-3703616_1920.jpg" alt="So">
-        <p>And at his hands...</p>
+        <div class="info">
+            <img class="infoimg" src="images/jazz-1658886_1920.jpg" alt="because">
+            <div class="text">Look at him...</div>
+        </div>
+        <div class="info">
+            <img class="infoimg" src="images/music-3264716_1920.jpg" alt="I">
+            <div class="text">and him...</div>
+        </div>
+        <div class="info">
+            <img class="infoimg" src="images/musician-1658887_1920.jpg" alt="Said">
+            <div class="text">and him...</div>
+        </div>
+        <div class="info">
+            <img class="infoimg" src="images/piano-3703616_1920.jpg" alt="So">
+            <div class="text">and his hands...</div>
+        </div>
     </div>
+
 
     <div class="quote">
-        <p>It's not exclusive, but inclusive, which is the whole spirit of jazz.</p>
-        <p>Herbie Hancock</p>
+        <blockquote>
+            <p>"It's not exclusive, but inclusive, which is the whole spirit of jazz."</p>
+            <footer>
+            <cite>-Herbie Hancock</cite>
+            </footer>
+        </blockquote>
     </div>
 
+
     <div class="sign">
-        <h1>Call to action, it's time to listen to some Jazz</h1>
-        <p>Sign up to receive some Jazz recommendations</p>
+        <h1>Call to action, it's time to listen to some Jazz.</h1>
+        <p>Sign up to receive some Jazz recommendations!</p>
         <button>Sign up</button>
     </div>
 
